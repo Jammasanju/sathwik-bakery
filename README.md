@@ -1,34 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Sathwik Bakery Application
 
-First, run the development server:
+Enjoy the demo of my website, have a look at it and enjoy the animations [Sathwik Bakery](https://sathwik-bakery-1lwmcbuo8-sanjujamma-gmailcom.vercel.app/?vercelToolbarCode=d2-qf_DqL4K4lNP)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+To run it locally, first clone and then go into folder and in terminal
+
+```
+yarn && yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Tools I used: `Next.JS 13`, `Typescript`, `Zustand` for state management, `Framer Motion` etc.. for the beautiful animations.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+### As given in assignment
 
-To learn more about Next.js, take a look at the following resources:
+I have tried to show some creativity in minimal time,
+I have added some transformations while hovering into the products 
+Created home page and cart page
+By clicking on add to cart, u can see the increment in cart and the quantities inside cart page as well
+By reducing the quantity of item to 0 will remove the item from cart.
+Handled back button as well, in home page if u click on back button it won't take to cart page even if it is in history of routing
+You can check the quality of the code I have written in this github repo.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
